@@ -25,3 +25,33 @@ HTML tags
         etc...
     </ol>
     Each item in an ordered list begins with a number
+
+//Pages, Embedded Links + Photos
+
+<a></a> = anchor element
+<a href="">linked text</a> = hyperlink reference. Text will appear blue + underline
+
+Absolute Links = External website links
+require protocol://domain/path ie https://www.website name.com(/page referenced if applicable)
+
+Relative Links = Links to other pages within own website
+Typically structure website as follows
+
+Directory - Website Name
+index.html (Home/Landing page)
+Pages (directory) - hosts pages housed on webstie (about, contact, etc.)
+Images (directory) - hosts images used on website
+Create other directories as needed
+
+Connecting relative links
+./directory/page in directory.html
+
+Images
+<img src="">
+Either website linked page(include domain and path) or
+<img scr="directory/file.jpg/png/jpeg">
+linking pictures on a page in pages directory use 
+<img src="../directory/file.jpg/png/jpeg">
+
+Alt attributes (used to describe what img is)
+src"img.jpg" alt="text">
