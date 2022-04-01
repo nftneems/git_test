@@ -17,3 +17,22 @@ For example,
 git add . is read as git | add | ., where the period represents everything in the current directory;
 git commit -m "message" is read as git | commit -m | "message"; and
 git status is read as git | status | (no destination).
+
+Stages of adding to git
+- git add file name
+ ( git add . adds all files in directory)
+- git status /only if wish to check that is in staging area to be committed/
+- git commit -m "note about changes made to documents for reference"
+- git status /only if wish to show that commit has been completed and ready for push/
+- git push (since only dealing with one branch) /git push origin main is other option/
+- git status /to ensure branch is up to date and working tree is clean/
+ 
+
+HTML tags
+<p> = paragraph tag
+<strong> = bold tag
+<em> = italics tag
+<h1-h6> = heading tag, number corresponds to heding importance
+// These tags are nested before and after text to format
+
+<!-- = html comments. text between these tags will not appear on the webpage
