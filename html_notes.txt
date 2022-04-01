@@ -1,0 +1,27 @@
+HTML tags
+
+<p> = paragraph tag
+<strong> = bold tag
+<em> = italics tag
+<h1-h6> = heading tag, number corresponds to heding importance
+// These tags are nested before and after text to format
+
+<!-- = html comments. text between these tags will not appear on the webpage
+
+//Learning Outcomes
+
+    Unordered lists
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        etc...
+    </ul>
+    Each list item in an unordered list begins with a bullet point
+
+    Ordered Lists
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        etc...
+    </ol>
+    Each item in an ordered list begins with a number
